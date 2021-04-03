@@ -25,6 +25,7 @@ pip install -r requirements.txt
 ```
 ## Usage
 The pipeline showcased in the Jupyter notebook will process the Greek sentences in `data/demo_greek.txt`, translate them into English, extract triples using 3 OIE engines and back-translate the resulting triples in Greek. The results are found in `data/final_triples.csv`.
+The standalone NMT models (EN2EL, EL2EN) can be found here: https://huggingface.co/lighteternal
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
